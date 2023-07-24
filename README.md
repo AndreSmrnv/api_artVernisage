@@ -1,3 +1,4 @@
 # api for artVernisage
 
-run backServer: npm run start
+run backServer: 
+`npm run start`
