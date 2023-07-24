@@ -288,7 +288,7 @@ createServer(async (req, res) => {
   .on("listening", () => {
     if (process.env.NODE_ENV !== "test") {
       console.log(
-        `Сервер Inspired запущен. Вы можете использовать его по адресу http://localhost:${PORT}`
+        `Сервер artVernisage запущен. Вы можете использовать его по адресу http://localhost:${PORT}`
       );
       console.log("Нажмите CTRL+C, чтобы остановить сервер");
       console.log("Доступные методы:");
@@ -323,7 +323,7 @@ createServer(async (req, res) => {
           })
           no validate`
       );
-      console.log(`Happy Coding 🎉`)
+      console.log(`Started 🎉 I'm waiting for a request`)
     }
   })
   .listen(PORT);
